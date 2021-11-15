@@ -35,7 +35,7 @@
                 padding: 10px;
               "
             >
-              Backend Web App, connected to: 192.168.0.141:8000
+              Backend Web App, connected to: 192.168.0.141
             </span>
       <v-spacer></v-spacer>
 
@@ -51,7 +51,7 @@
     </v-app-bar>
 
     <v-main>
-      <HelloWorld/>
+      <router-view/>
     </v-main>
   </v-app>
 </template>
